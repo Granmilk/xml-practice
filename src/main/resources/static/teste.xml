@@ -3,4 +3,15 @@
     <id>1</id>
     <name>Zook</name>
     <className>Sorcerer</className>
+    <userType>
+        <id>1</id>
+        <type>player</type>
+        <description>a player</description>
+    </userType>
+    <race>
+        <name>gnome</name>
+        <raceType>
+            <name>Rock Gnome</name>
+        </raceType>
+    </race>
 </user>

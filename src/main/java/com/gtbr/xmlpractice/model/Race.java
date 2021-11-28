@@ -5,17 +5,13 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Map;
-
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
-    private Integer id;
+public class Race {
+
     private String name;
-    private String className;
-    private Map<String, Object> userType;
-    private Race race;
+    private RaceType raceType;
 
 }
